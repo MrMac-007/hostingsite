@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    }
+    
+body
+{
+        font-family: 'Montserrat', sans-serif;
+        margin: 0;
+    
+    }
+    
+
+.main-header{
+    position: fixed;
+    top: 0;
+    background: #2ddf5c;
+    padding: 8px 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand{
+    color: #0e4f1f;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.main-nav{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 75px);
+    vertical-align: middle;
+}
+.main-nav__item{
+    display: inline-block;
+    margin: 0px 25px;
+    
+}
+
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #0e4f1f;
+}
+
+.main-nav__item a{
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0px;
+    
+}
+
+.main-nav__items a:hover, .main-nav__items a:active{
+    color: white;
+    border-bottom: 5px solid white;
+     
+}
+
+.main-nav__item--cta a{
+    color: white;
+    background: #ff1b68;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+.main-nav__item--cta a:hover, .main-nav__item--cta a:active{
+    color: #ff1b68;
+    background: white;
+    border: none;
+}
+
+.main-footer{
+    background: black;
+    padding: 32px;
+    margin-top: 48px;
+}
+
+.main-footer__links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main-footer__link{
+    display: inline-block;
+    margin: 0px 16px;
+    font-size: 19px;
+}
+
+.main-footer__link a{
+    color: white;
+    text-decoration: none;
+}
+
+.main-footer__link a:hover, .main-footer__link a:active{
+color: #ccc;
+
+}
+
+.button{
+    background-color: #0e4f1f;
+    color: white;
+    font: inherit;
+    border: 1.5px solid black;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover, .button:active{
+    background-color: white;
+    color: #19b84c;
+    text-transform: uppercase;
+    transition: .6s;
+}
